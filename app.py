@@ -35,7 +35,7 @@ if page == "🏠 Rent Prediction":
             "East Delhi", "West Delhi", "North Delhi", 
             "South Delhi", "Central Delhi", "North West Delhi", "South West Delhi"
         ])
-        ap_dist = st.slider("📍 Distance from Akshardham (in km)", 0.0, 50.0, 20.0)
+        ap_dist = st.slider("📍 Distance from Airport (in km)", 0.0, 50.0, 20.0)
 
         submitted = st.form_submit_button("🔍 Predict Rent")
 
